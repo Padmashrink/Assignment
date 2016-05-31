@@ -57,12 +57,12 @@ public class CounterThread extends Thread {
         //Sorting the collection of individual thread and printing them
         List<Integer> list_thread1 = new ArrayList<Integer>(thread1);
         Collections.sort(list_thread1);
-        System.out.println("Collection of thread - 1 : "+ list_thread1);
+        System.out.println("Collection of thread - A : "+ list_thread1);
         List<Integer> list_thread2 = new ArrayList<Integer>(thread2);
         Collections.sort(list_thread2);
-        System.out.println("Collection of thread - 2 : "+ list_thread2);
+        System.out.println("Collection of thread - B : "+ list_thread2);
         List<Integer> list_thread3 = new ArrayList<Integer>(thread3);
         Collections.sort(list_thread3);
-        System.out.println("Collection of thread - 3 : "+ list_thread3);
+        System.out.println("Collection of thread - C : "+ list_thread3);
     }
 }
